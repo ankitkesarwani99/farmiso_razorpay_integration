@@ -1,0 +1,42 @@
+* {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.payment__controls {
+  gap: 1rem;
+  margin: 5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment__control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* .payment__control  {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  background-color: cornsilk;
+} */
+
+.payment__actions {
+  padding: 1rem;
+}
+#payment_button {
+  background-color: cornsilk;
+  font-size: larger;
+}
